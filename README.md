@@ -1,10 +1,14 @@
 # Virtual-fire-drill
 A virtual fire drill with ARCore, Unity
 
+AR을 이용해 재난상황을 체험할 수 있게 해주는 어플리케이션 입니다.
+
+# 증강이미지 인식
 
 ![alt text](demonstration1.png)
-
 ![alt text](demonstration2.png)
+
+# 실시간 불 렌더링
 
 ![alt text](demonstration3.png)
 
