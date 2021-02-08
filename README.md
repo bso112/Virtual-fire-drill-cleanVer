@@ -1,28 +1,41 @@
-# Virtual-fire-drill
-A virtual fire drill with ARCore, Unity
-
-AR을 이용해 재난상황을 체험할 수 있게 해주는 어플리케이션 입니다.
-
-# 증강이미지 인식
-
-![alt text](demonstration1.png)
-![alt text](demonstration2.png)
-
-# 실시간 불 렌더링
-
-![alt text](demonstration3.png)
+# 화재대피 훈련 AR
+화재대피 훈련을 AR로 재현해서 행동요령을 습득할 수 있게하는 프로그램입니다.
+AR을 이용하기 때문에, 머리가 아닌 몸으로 행동요령을 익힐 수 있는게 특징입니다.
 
 
-## 특징
 
-1. 실시간으로 평면을 인식해 불 오브젝트 생성
-2. 증강이미지 기반 오브젝트 생성
-3. 시간 초에 따라 미션 수행
+## 사용기술
+Unity, C#, ARCore, MySQL, PHP
 
-## 미션목록
 
-1. 화재원 찾기 (수건, 가스밸브, 오일스토브 중 하나)
-2. 가스로부터 호흡기 보호하기 (수건 사용)
-3. 소화기 사용해서 불 끄기
+## 실행법
+```
+# 깃 허브에서 소스코드를 다운로드 받습니다.
+git clone https://github.com/bsw112/anime_worldcup.git
 
->[시연영상](https://www.youtube.com/watch?v=Q7QbUZA8FHQ&feature=youtu.be)
+# Unity로 빌드합니다. 개발환경은 Unity 2018.3.1f1 버전입니다.
+
+# AR을 체험하기 위해서는 Asset/Images 폴더에 있는 이미지를 출력해야합니다.
+해당 이미지를 카메라로 인식시키면 3D 오브젝트가 생성됩니다.
+지원하는 이미지 목록 : elevator, exit, extinguisher, multitap, oilStove, towel, gasValve, sand, WaterBucket, cat
+
+```
+
+
+## 주요기능
+* 카메라로 이미지를 인식해서 3D 오브젝트 생성
+* 생성된 3D 오브젝트와의 상호작용으로 미션 수행
+* 플레이 타임 경과에 따른 미션 발생
+* 인벤토리 시스템
+* 게임 클리어시 완료한 미션의 갯수, 클리어 타임에 따라 피드백을 하고 그 정보를 DB에 저장. 
+* 스코어에 따른 유저 랭킹 시스템 구현
+
+
+## 실제화면
+![alt](readme/슬라이드33.PNG)
+![alt](readme/슬라이드34.PNG)
+![alt](readme/슬라이드35.PNG)
+![alt](readme/슬라이드36.PNG)
+
+## 시연
+[![시연](http://img.youtube.com/vi/Q7QbUZA8FHQ/0.jpg)](https://www.youtube.com/watch?v=Q7QbUZA8FHQ&t=62s)
