@@ -21,7 +21,7 @@ git clone https://github.com/bsw112/Virtual-fire-drill-cleanVer.git
 해당 이미지를 카메라로 인식시키면 3D 오브젝트가 생성됩니다.
 지원하는 이미지 목록 : elevator, exit, extinguisher, multitap, oilStove, towel, gasValve, sand, WaterBucket, cat
 
-!! The type or namespace name 'NetworkBehaviour' could not be found 라는 에러가 발생하면
+# The type or namespace name 'NetworkBehaviour' could not be found 라는 에러가 발생하면
 Window > Package Manager 에서 Multiplayer HLAPI 와 XR Legacy Input Helpers 를 인스톨 해야합니다.
 
 
