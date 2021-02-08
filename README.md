@@ -11,7 +11,7 @@ Unity, C#, ARCore, MySQL, PHP
 ## 실행법
 ```
 # 깃 허브에서 소스코드를 다운로드 받습니다.
-git clone https://github.com/bsw112/anime_worldcup.git
+git clone https://github.com/bsw112/Virtual-fire-drill-cleanVer.git
 
 # Unity로 빌드합니다. 개발환경은 Unity 2018.3.1f1 버전입니다.
 
