@@ -13,11 +13,17 @@ Unity, C#, ARCore, MySQL, PHP
 # 깃 허브에서 소스코드를 다운로드 받습니다.
 git clone https://github.com/bsw112/Virtual-fire-drill-cleanVer.git
 
-# Unity로 빌드합니다. 개발환경은 Unity 2018.3.1f1 버전입니다.
+# Unity로 프로젝트를 엽니다. 개발환경은 Unity 2018.3.1f1 버전입니다.
+
+# BuildSetting을 Android로 바꾸고 빌드합니다.
 
 # AR을 체험하기 위해서는 Asset/Images 폴더에 있는 이미지를 출력해야합니다.
 해당 이미지를 카메라로 인식시키면 3D 오브젝트가 생성됩니다.
 지원하는 이미지 목록 : elevator, exit, extinguisher, multitap, oilStove, towel, gasValve, sand, WaterBucket, cat
+
+!! The type or namespace name 'NetworkBehaviour' could not be found 라는 에러가 발생하면
+Window > Package Manager 에서 Multiplayer HLAPI 와 XR Legacy Input Helpers 를 인스톨 해야합니다.
+
 
 ```
 
